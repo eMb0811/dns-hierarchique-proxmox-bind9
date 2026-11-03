@@ -1,0 +1,1 @@
+for id in $(pct list | awk 'NR>1 && $1!=200 {print $1}'); do pct start $id; done

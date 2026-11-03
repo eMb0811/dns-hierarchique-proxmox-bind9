@@ -1,0 +1,14 @@
+# Fichiers temporaires ou logs
+*.log
+*.tmp
+*.bak
+*~
+
+# Fichiers d'environnement
+.env
+.env.local
+
+# Fichiers système
+Thumbs.db
+Desktop.ini
+.DS_Store
